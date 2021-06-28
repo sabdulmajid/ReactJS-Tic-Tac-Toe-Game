@@ -1,6 +1,8 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
+    font: 48px "Century Gothic", Futura, sans-serif;
+    color: white;
     margin: 20px;
+    background: url('images\\Trial Wallpaper.jpg') no-repeat;
   }
   
   ol, ul {
@@ -18,18 +20,20 @@ body {
   }
   
   .square {
-    background: #fff;
-    border: 1px solid #999;
+    background: navy;
+    border: 1px solid #fff;
     float: left;
-    font-size: 24px;
+    font: 60px "Century Gothic", Futura, sans-serif;
+    color: white;
+    font-size: 48px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 100px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 100px;
   }
   
   .square:focus {
@@ -47,5 +51,18 @@ body {
   
   .game-info {
     margin-left: 20px;
+  }
+
+button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width:300px;
   }
   
