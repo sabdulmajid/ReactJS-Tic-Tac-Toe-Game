@@ -48,7 +48,7 @@ class Square extends React.Component {
     render() {
       const winner = calculateWinner(this.state.squares);
       let status;
-      if (winner && winner != 'draw') {
+      if (winner && winner !== 'draw') {
         status = 'Winner: ' + winner;
       } else if (winner && winner === 'draw') {
         status = `Draw! Try again!`;
